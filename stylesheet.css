@@ -945,3 +945,59 @@ form textarea {
         height: 300px;
     }
 }
+
+/* Modern Responsive Enhancements */
+.responsive-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.responsive-about-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .home-content h3, .home-content h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .about-text h2, .about-text h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .main-text h2 {
+        font-size: 28px;
+    }
+
+    .portfolio-content {
+        grid-template-columns: 1fr;
+    }
+
+    .row img {
+        height: auto;
+    }
+
+    .layer p {
+        font-size: 14px;
+    }
+}
